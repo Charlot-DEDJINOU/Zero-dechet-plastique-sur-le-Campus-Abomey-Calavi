@@ -45,7 +45,7 @@ export default {
 
 <template>
   <div class="container d-flex flex-column align-items-center">
-    <h3 class="my-5 px-3 text-center">Zéro déchet plastique sur le Campus d'Abomey-Calavi</h3>
+    <p class="my-4 text-center px-4 fs-3 fw-medium">Zéro déchet plastique sur le Campus d'Abomey-Calavi</p>
     <div class="visuel" id="visuel">
       <img class="image" :src="url_image" />
     </div>
@@ -66,6 +66,7 @@ export default {
   min-height: 100vh;
   height: auto;
   color: black;
+  background-color: whitesmoke;
 }
 h3 {
   width: 500px;
